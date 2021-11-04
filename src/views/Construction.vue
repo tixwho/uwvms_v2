@@ -3,7 +3,7 @@
     <h1>UNDER CONSTRUCTION</h1>
     <div>
       <p>
-        This page is under construction. Check our <a href="https://github.com/asanemeterio/uwvms1">github page</a>
+        This page is under construction. Check our <a href="https://github.com/tixwho/uwvms_v2">github page</a>
         to see the most recent update!
       </p>
       <p>&mdash; UWVMS Team</p>
