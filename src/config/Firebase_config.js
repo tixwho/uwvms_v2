@@ -1,3 +1,9 @@
+/**
+ * this file should not be visible on github for safety concerns
+ * now we include it just for development puspose. Will cleanup .gitignore when project ends.
+ */
+
+
 const firebaseConfig = {
     apiKey: "AIzaSyAOHXggQeR97pKxcbpQJ6-z1I0axTW_dX4",
     authDomain: "uwvms-d3847.firebaseapp.com",
