@@ -1,12 +1,9 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
+import { firebaseConfig } from "../config/Firebase_config";
 
-const firebaseApp = initializeApp({
-    apiKey: '### FIREBASE API KEY ###',
-    authDomain: '### FIREBASE AUTH DOMAIN ###',
-    projectId: '### CLOUD FIRESTORE PROJECT ID ###'
-  });
-  
-  const db = getFirestore();
+const firebaseApp = initializeApp(firebaseConfig);
 
-  export {firebaseApp, db}
+const firebaseDb = getFirestore();
+
+export { firebaseApp, firebaseDb }
