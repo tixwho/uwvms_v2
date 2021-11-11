@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore/lite";
 import { firebaseConfig } from "../config/Firebase_config";
 
 //for pure JS file, Naming: Upper_case_first.js
@@ -7,6 +7,6 @@ import { firebaseConfig } from "../config/Firebase_config";
 
 const firebaseApp = initializeApp(firebaseConfig);
 
-const firebaseDb = getFirestore();
+const firebaseDb = getFirestore(firebaseApp);
 
-export { firebaseApp, firebaseDb }
+export {firebaseApp,firebaseDb};
